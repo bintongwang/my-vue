@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico" />
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+  <body>
+    <noscript>
+      <strong
+        >We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work
+        properly without JavaScript enabled. Please enable it to
+        continue.</strong
+      >
+    </noscript>
+    <div id="app">change1233sdfdfsssssdfsdfdfdfd</div>
+    <div id="app">change1233sdfdfsssssdfsdfdfdfd</div>
+    <div id="app">change1233sdfdfsssssdfsdfdfdfd</div>
+    <div id="app">change1233sdfdfsssssdfsdfdfdfd</div>
+    <div id="app">change1233sdfdfsssssdfsdfdfdfd</div>
+    <!-- built files will be auto injected -->
+    <!-- 示例 -->
+  </body>
+  <script>
+    // async function a() {
+    //    console.log(1)
+    //    let b = await new Promise((res,rej) => {
+    //     res(2)
+    //    })
+    //    console.log(b)
+    //    console.log(3)
+    // }
+    // a()
+    let ta = new Promise((res,rej) => {
+      let ac = 't1';
+      res(ac)
+    })
+    let tb = new Promise((res,rej) => {
+      let ac = 't2';
+      res(ac)
+    })
+    let tc = new Promise((res,rej) => {
+      let ac = 't3';
+      res(ac)
+    })
+  let  tall = Promise.all([ta,tb,tc])
+  tall.then(item => console.log(item))
+    // function get() {
+    //   let a;
+    //   new Promise((resolve, reject) => {
+    //     resolve(2);
+    //   }).then((item) => {
+    //     a = item;
+    //     return a;
+    //   });
+    // }
+    // console.log(1);
+    // console.log(get());
+    // console.log(3);
+    // console.log(4);
+  </script>
+</html>
